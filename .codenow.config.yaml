@@ -12,5 +12,5 @@ codenow:
         cpu: "2"
         memory: "512Mi"
       requests:
-        cpu: "0.2"
+        cpu: "0.22"
         memory: "200M"
