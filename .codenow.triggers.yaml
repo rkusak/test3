@@ -1,0 +1,8 @@
+---
+triggers:
+- event: "push"
+  pipeline: "php-composer-app-preview"
+  enabled: true
+  branch: "main"
+  deployments: []
+  type: "preview"
