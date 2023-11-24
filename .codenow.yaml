@@ -1,7 +1,7 @@
 version: v1
 # If advanced mode is active CI pipelines use Dockerfile and helm descriptor from repository
 advancedMode:
-  enabled: false
+  enabled: true
 build:
   # recommendation: use the official composer repo if you want to change runtime version: https://hub.docker.com/_/composer
   image: docker.io/composer:2.3.10
