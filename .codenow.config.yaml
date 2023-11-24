@@ -1,6 +1,10 @@
 ---
 codenow:
-  connections: []
+  connections:
+  - name: "RED"
+    type: "redis"
+  - name: "POST"
+    type: "postgres"
   runtime:
     replicas: 2
     resources:
