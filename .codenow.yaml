@@ -17,7 +17,7 @@ build:
     release:
       pipeline: php-composer-app-release
     preview:
-      pipeline: java-gradle-app-preview
+      pipeline: php-composer-app-preview
     triggers: []
 runtime:
   # Image is used as a base image for your runtime container
